@@ -13,6 +13,12 @@ Shared Volume is a Kubernetes operator that enables easy sharing of volumes acro
 
 Shared Volume provides Custom Resource Definitions (CRDs) that allow users to create shared storage solutions in Kubernetes clusters. The operator manages the lifecycle of shared volumes and automatically mounts them to pods through simple annotations.
 
+##  Documentation
+
+For detailed documentation, installation guides, and examples, visit:
+
+📖 **[sharedvolume.github.io](https://sharedvolume.github.io)**
+
 ### ✨ Key Features
 
 - 📦 **Shared Storage**: Create volumes that can be shared across multiple pods
@@ -40,12 +46,6 @@ The project consists of several components:
 | **volume-syncer** | [v0.1.0](https://github.com/sharedvolume/volume-syncer/releases/tag/v0.1.0) | [sharedvolume/volume-syncer](https://github.com/sharedvolume/volume-syncer) | Service for synchronizing data from external sources |
 | **nfs-server-image** | [v0.1.0](https://github.com/sharedvolume/nfs-server-image/releases/tag/v0.1.0) | [sharedvolume/nfs-server-image](https://github.com/sharedvolume/nfs-server-image) | Container image for NFS server deployment |
 | **shared-volume-helm** | [v0.1.0](https://github.com/sharedvolume/shared-volume-helm/releases/tag/v0.1.0) | [sharedvolume/shared-volume-helm](https://github.com/sharedvolume/shared-volume-helm) | Helm charts for easy installation |
-
-##  Documentation
-
-For detailed documentation, installation guides, and examples, visit:
-
-📖 **[sharedvolume.github.io](https://sharedvolume.github.io)**
 
 ## 🚀 Quick Start
 
