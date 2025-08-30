@@ -1,0 +1,15 @@
+[submodule "shared-volume-helm"]
+	path = shared-volume-helm
+	url = git@github.com:sharedvolume/shared-volume-helm.git
+[submodule "shared-volume-controller"]
+	path = shared-volume-controller
+	url = git@github.com:sharedvolume/shared-volume-controller.git
+[submodule "nfs-server-controller"]
+	path = nfs-server-controller
+	url = git@github.com:sharedvolume/nfs-server-controller.git
+[submodule "nfs-server-image"]
+	path = nfs-server-image
+	url = git@github.com:sharedvolume/nfs-server-image.git
+[submodule "volume-syncer"]
+	path = volume-syncer
+	url = git@github.com:sharedvolume/volume-syncer.git
