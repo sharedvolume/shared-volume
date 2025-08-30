@@ -9,16 +9,11 @@
 
 Shared Volume is a Kubernetes operator that enables easy sharing of volumes across pods in namespace or cluster scope, with optional data synchronization from external sources.
 
+**[sharedvolume.github.io](https://sharedvolume.github.io)**
+
 ## 📖 Overview
 
 Shared Volume provides Custom Resource Definitions (CRDs) that allow users to create shared storage solutions in Kubernetes clusters. The operator manages the lifecycle of shared volumes and automatically mounts them to pods through simple annotations.
-
-##  Documentation
-
-For detailed documentation, installation guides, and examples, visit:
-
-📖 **[sharedvolume.github.io](https://sharedvolume.github.io)**
-
 ### ✨ Key Features
 
 - 📦 **Shared Storage**: Create volumes that can be shared across multiple pods
@@ -34,6 +29,12 @@ For detailed documentation, installation guides, and examples, visit:
 - 🔌 **Simplified External Sync**: No need to implement custom solutions for syncing external data - just provide the parameters and use it for seamless integration with Git, S3, HTTP, or SSH sources
 - 🔗 **Cross-Namespace Volume Sharing**: Enables volume sharing across namespace pods using ClusterSharedVolume, breaking traditional namespace boundaries for storage access
 - 🎨 **Easy to Use**: No need to implement complex details - just add an annotation to your pod and the shared volume is automatically mounted
+
+## 📚 Documentation
+
+For detailed documentation, installation guides, and examples, visit:
+
+📖 **[sharedvolume.github.io](https://sharedvolume.github.io)**
 
 ## 🧩 Components
 
