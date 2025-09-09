@@ -1,0 +1,7 @@
+[format]
+    coverLetter = auto
+[trailer "git-subrepo"]
+    key = git-subrepo
+    separator = :
+    ifExists = doNothing
+    ifMissing = ignore
